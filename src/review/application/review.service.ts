@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { ReviewEntityDatabase } from './review.entity'; // Importa la interfaz o clase de entidad de revisión
+import { ReviewEntityDatabase } from '../domain/review.entity'; // Importa la interfaz o clase de entidad de revisión
 import { DbRepository } from 'src/db/dbRepository';
 
 @Injectable()

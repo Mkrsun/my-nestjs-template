@@ -1,7 +1,7 @@
-import { ReviewEntity } from './review.entity';
-import { reviewValidator } from './review.validator';
-import { reviewAdapter } from './review.adapter';
-import { ReviewService } from './review.service';
+import { ReviewEntity } from '../../domain/review.entity';
+import { reviewValidator } from '../../domain/review.validator';
+import { reviewAdapter } from '../../domain/review.adapter';
+import { ReviewService } from '../../application/review.service';
 import { Body, Controller, Post, Res } from '@nestjs/common';
 
 @Controller('review')
